@@ -1,0 +1,11 @@
+#NRAS
+
+c.35G>A,p.G10E,
+c.35G>A,p.G12D,Colorectum
+c.38G>T,p.G13V,Colorectum
+c.52G>A,p.G12D,
+c.174A>G,p.(=),
+c.181C>A,p.Q61K,Colorectum
+c.182A>T,p.Q61L,Colorectum
+c.182A>G,p.T58T,
+c.182A>G,p.Q61R,Colorectum

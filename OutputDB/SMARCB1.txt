@@ -1,0 +1,5 @@
+#SMARCB1
+
+c.472C>T,p.V722I,
+c.601C>T,p.P487L,
+c.607G>A,p.Y163Y,

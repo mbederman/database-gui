@@ -1,0 +1,12 @@
+#VHL
+
+c.266T>A,p.G93R,
+c.277G>C,p.Q96*,
+c.286C>T,p.P99fs*60,
+c.343C>A,p.L118P,
+c.353T>C,p.V130L,
+c.388G>C,p.G144fs*15,
+c.472C>G,p.R161*,
+c.481C>T,p.R167W,
+c.499C>T,p.L169P,
+c.506T>C,p.V384D,

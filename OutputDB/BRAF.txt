@@ -8,10 +8,8 @@ c.1391G>T,p.G460G,
 c.1380A>G,p.P453P,
 c.1359T>C,p.R444W,
 c.1330C>T,p.Y646F,
-c.1799T>A,p.V600E,Colorectum
 c.1781A>G,p.D594G,Colorectum
-c.1799T>A,p.V600E,Lung
-c.1799T>A,p.V600E,Colorectum
+c.1799T>A,p.V600E,Colorectum; Lung
 c.1785T>G,p.F595L,Colorectum
 c.1774A>G,p.I592V,Colorectum
 c.1796T>A,p.V599E,Skin

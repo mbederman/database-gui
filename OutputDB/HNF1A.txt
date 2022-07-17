@@ -1,0 +1,9 @@
+#HNF1A
+
+c.617G>T,p.W206L,
+c.632A>C,p.Q211P,
+c.685C>T,p.R229*,
+c.710A>G,p.N237S,
+c.779C>T,p.T260M,
+c.787C>T,p.R263C,
+c.864G>C,p.G288G,

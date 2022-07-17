@@ -20,8 +20,6 @@ c.4285C>T,p.S1465fs*3,
 c.4561G>T,p.E1547*,
 c.4639G>T,p.E1552*,
 c.4654G>T,p.T1556fs*3,
-c.4348C>T,p.R1450*,Colorectum
 c.3916G>T,p.E1306*,Colorectum
 c.3925G>T,p.E1309*,Colorectum
-c.4348C>T,p.R1450*,Stomach
-c.4348C>T,p.R1450*,Colorectum
+c.4348C>T,p.R1450*,Colorectum; Stomach
