@@ -1,0 +1,8 @@
+#GNAS
+
+c.602G>A, R201H, Colorectum
+c.601C>T, R201C, Colorectum
+c.602G>A, R201H, Pancreas
+c.489C>T,
+c.601C>T,
+c.680A>T,

@@ -1,0 +1,93 @@
+<%- include("header") -%>
+
+    <div class="d-flex mb-5 bg-dark py-2 justify-content-around">
+        <h3 class="text-white">User: <%= user %></h3>
+        <button type="button" class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#commitModal">Commit</button>
+
+        <div class="modal fade" id="commitModal" tabindex="-1" aria-labelledby="commitModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="commitModalLabel">Commit all changes to Github?</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <a class="text-decoration-none text-white btn btn-primary" href="/commit">Confirm</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white col-2">
+            <h3 class="fs-5 mr-5 fw-bold text-center"><u>Select a Gene</u></h3>
+    
+            <% files.forEach(file => { %>
+                <div class="list-group list-group-flush border bg-light scrollarea">
+                    <% if(gene === file) { %>
+                        <a href="/gene/<%= file %>" class="list-group-item list-group-item-action active py-3 lh-tight" aria-current="true">
+                    <% } else { %>
+                        <a href="/gene/<%= file %>" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+                    <% } %>
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1"><%= file %></strong>
+                        </div>
+                        </a>
+                </div>
+            <% }); %>
+            
+        </div>
+    
+        <div class="w-50 mx-auto text-center col-8">
+            <% if(gene !== "") { %>
+                <div class="mb-4">
+                    <h1 class="fs-1 fw-bold text-decoration-underline bg"><%= gene %></h1>
+                    <button class="btn btn-primary btn-lg w-25">
+                        <a class="text-decoration-none text-white" href="/gene/<%= gene %>/add">Add</a>
+                    </button>
+                    <button type="button" class="btn btn-success btn-lg w-25" data-bs-toggle="modal" data-bs-target="#saveModal">Save</button>
+
+                    <div class="modal fade" id="saveModal" tabindex="-1" aria-labelledby="saveModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="saveModalLabel">Save changes to file?</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                <a class="text-decoration-none text-white btn btn-primary" href="/gene/<%= gene %>/save">Confirm</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fs-5">
+                    <div class="gx-auto mx-5">
+                        <% content.forEach(mutation => { %>
+                            <div class="border bg-light pb-3">
+                                <p>
+                                    <span class="fw-bold">Mutation: </span> <%= mutation.position %>
+                                    <span class="fw-bold">Protein: </span> <%= mutation.protein  %>
+                                    <% if(mutation.comment != "") {%>
+                                    <span class="fw-bold">Comment: </span> <%= mutation.comment %>
+                                    <% } %>
+                                </p>
+                                <div class="container pb-2 justify-center">
+                                    <div class="justify-content-center">
+                                        <a href="/gene/<%= gene %>/<%= mutation.id %>/edit" class="text-decoration-none text-white btn btn-secondary w-25" href="">Edit</a>
+                                        <a href="/gene/<%= gene %>/<%= mutation.id %>/delete" class="text-decoration-none text-white btn btn-danger btn-md w-25 ml-3" href="">Delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <% }); %>
+                    </div>
+                </div>  
+            <%} %>
+        </div>
+    </div>
+
+<%- include("footer") -%>

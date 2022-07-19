@@ -1,0 +1,94 @@
+#KRAS
+
+#c.491G>A,
+#c.351A>C,
+#c.111+1C>T,
+#c.24A>G,
+c.34G>T, p.G12C, Colorectum; Liver; Lung; Ovary
+c.34G>A, p.G12S, Colorectum
+c.34G>C, p.G12R, Pancreas
+c.34G>C, p.G12R, Lung
+c.34G>A, p.G12C, Lung
+c.34G>C, p.G12R, Colorectum
+c.35G>C, p.G12A, Lung
+c.35G>C, p.G12A, Colorectum
+c.35G>T, p.G12V, Lung;Breast;Colorectum;Pancreas;Colorectum
+c.35G>A, p.G12D, Colorectum
+c.35G>A, p.G12D, Stomach
+c.35G>A, p.G12D, Lung
+c.35G>A, p.G13D, Colorectum
+c.35G>A, p.G13D, Lung
+c.35G>C, p.G12A, Pancreas
+c.35G>A, p.G12D, Pancreas
+c.37G>T, p.G13C, Lung
+c.38G>A, p.G13D, Colorectum
+c.38G>A, p.G13D, Liver
+c.38G>T, p.G13V, Colorectum
+#c.104C>T,
+c.175G>A, p.A59T, Stomach
+#c.175G>A,
+c.176C>A, p.A59E, Colorectum
+c.181C>A, p.Q61K, Colorectum
+c.182A>G, p.Q61R, Colorectum
+c.183A>T, p.Q61H, Colorectum
+#c.183A>C,
+c.436G>A, p.A146T, Colorectum
+c.437C>T,p.A146V, Colorectum
+# , p.G12D, Lung
+# , p.G12A, Lung
+# , p.Q61R, Lung
+# , p.G12F, Lung
+# , p.G12C, Lung
+# , p.G12, Lung
+# , p.Q61L, Lung
+# , p.Q61H, Lung
+# , p.G12S, Lung
+# , p.G12V, Lung
+# , p.G13S, Lung
+# , p.A11_G12insGA,
+# , p.A11V,
+# , p.A11P,
+# , p.A18D,
+# , p.G12_G13insG,
+# , p.G12G,
+# , p.G12D,
+# , p.G12V,
+# , p.G12E,
+# , p.G12W G12C,
+# , p.G12A,
+# , p.G12Y,
+# , p.G12I,
+# , p.G12F,
+# , p.G12L,
+# , p.G12C,
+# , p.G12S,
+# , p.G12R,
+# , p.G10_A11insG,
+# , p.G13_V14insG,
+# , p.G13G,
+# , p.G13V,
+# , p.G13D,
+# , p.G13E,
+# , p.G13R,
+# , p.G13A,
+# , p.G13C,
+# , p.G13S,
+# , p.G15S,
+# , p.Q22K,
+# , p.L19F,
+# , p.V14I,
+# , p.V8V,
+# , p.A59G,
+# , p.A59E,
+# , p.A59T,
+# , p.Q61H,
+# , p.Q61P,
+# , p.Q61R,
+# , p.Q61L,
+# , p.Q61K,
+# , p.Q61E,
+# , p.T58I,
+# , p.A146V,
+# , p.A146T,
+# , p.A146P,
+# , p.K117N,

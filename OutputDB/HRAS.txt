@@ -1,4 +1,0 @@
-#HRAS
-
-c.37G>C,p.G13R,Lung
-c.38G>T,p.G13V,Lung

@@ -1,0 +1,11 @@
+#SMARCB1
+
+c.118C>T
+c.141C>A
+c.157C>T
+c.472C>T, p.V722I,
+c.566_567ins19, p.A572V
+c.601C>T, p.P487L,
+c.607G>A, p.Y163Y,
+c.601+66G>C, p.R201C,
+c.1148delC, p.Q227L,

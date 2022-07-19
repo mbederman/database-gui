@@ -1,0 +1,17 @@
+#CDKN2A
+
+c.358G>T,p.P114L,
+c.341C>T,p.W110*,
+c.330G>A,p.D108Y,
+c.322G>T,p.H83Y,
+c.247C>T,p.R80*,
+c.238C>T,p.E69*,
+c.205G>T,p.R58*,
+c.172C>T,p.T334T,
+c.251A>T, p.D84V, Lung
+c.247C>T, p.H83Y, Lung
+c.161insTG, p.M54fs, Pancreas
+c.238C>T, p.R80*, Colorectum
+c.231delCT, p.T77fs, Pancreas
+c.250G>C, p.D84H, Lung
+c.262G>T, p.E88*, Pancreas

@@ -1,0 +1,149 @@
+#EGFR
+
+c.323G>A,p.E114K,
+c.340G>A,p.P136P,
+c.408C>T,p.A289V,
+c.866C>T,p.V292L,
+c.874G>T,p.G598V,
+c.1793G>T,p.C620Y,
+c.1859G>A,p.L688P,
+c.2063T>C,p.A698T,
+c.2092G>A,p.G719A,
+c.2156G>C,p.G724S,
+c.2170G>A,p.(=),
+c.2184+19G>A,p.P733S,
+c.2197C>T,p.G735S,
+c.2203G>A,p.P741L,
+c.2222C>T,p.E746_A750delELREA,
+c.2235_2249del15,p.V765M,
+c.2293G>A,p.Q787Q,
+c.2361G>A,p.L792P,
+c.2375T>C,p.G810D,
+c.2429G>A,p.L814P,
+c.2441T>C,p.E829K,
+c.2485G>A,p.L833V,
+c.2497T>G,p.H835L,
+c.2504A>T,p.A839T,
+c.2515G>A,p.L858R,
+c.2573T>G,p.L861Q,
+c.2582T>A,p.G863D,
+c.2588G>A,p.A871G,
+c.2612C>G,p.E168D,
+c.2573T>G, p.L858R, Lung
+# p.D770-N77insSVD, Lung
+# p.D770-N771insSVD, Lung
+c.2543C>U, p.P848L, Lung
+c.2092G>A, p.A698T, Lung
+c.2125G>A, p.E709K, Lung
+c.2125G>C, p.E709H, Lung
+c.2126A>U, p.E709V, Lung
+c.2126A>G, p.E709G, Lung
+c.2126A>C, p.E709A, Lung
+c.2134U>C, p.F712L, Lung
+c.2135U>C, p.F712S, Lung
+c.2155G>U, p.G719C, Lung
+c.2155,2156GG>TC , p.G719S, Lung ???*
+c.2156G>A, p.G719D, Lung
+c.2156G>C, p.G719A, Lung
+c.2161G>A, p.G721S, Lung
+c.2162G>C, p.G721A, Lung
+c.2167G>A, p.G724S, Lung
+c.2108U>C, p.L703P, Lung
+c.2159C>U, p.S720F, Lung
+c.865G>A, p.A289T, Lung
+c.866C>A, p.A289D, Lung
+c.866C>U, p.A289V, Lung
+c.2227G>A, p.A743T, Lung
+c.2248G>C, p.A750P, Lung
+c.2281G>A, p.D761N, Lung
+c.2281G>U, p.D761Y, Lung
+c.762A>G, p.D761G, Lung
+c.2200G>A, p.E734K, Lung
+c.del2236–2246, p.E746_E749delELRE, Lung
+c.del2236–2246, p.E746_E749delELRE, Lung
+c.del2236–2250 , p.E746_A750delELREA, Lung
+c.del2237–2251, p.E746_T751delELREAT, Lung
+c.del2236–2250, p.E746_A750delELREA, Lung
+c.del2237–2251, p.E746_T751delELREAT, Lung
+c.2236G>A, p.E746K, Lung
+# p.E746_S752delELREATS, Lung
+# p.E746_T751>A, Lung
+# p.E746_T751>V, Lung
+# p.E746_S752>A, Lung
+# p.E746_S752>V, Lung
+# p.E746_S752>D, Lung
+c.2203G<A,p.G735S, Lung
+# p.K745_E749delKELRE,  Lung
+c.2234A>G, p.K745R, Lung
+c.2260A>G, p.K754E, Lung
+c.2188C>U, p.L730F, Lung
+c.L747_T751delLREAT,  Lung
+c.2240U>C, p.L747P, Lung
+# p.L747_E749delLRE, Lung
+# p.L747_A750>P, Lung
+# p.L747_T751>P, Lung
+# p.L747_S752delLREATS, Lung
+# p.L747_P753>S, Lung
+c.2239C>U, p.L747S, Lung
+# p.L747_T751>S,  Lung
+# p.L747_R748>FP, Lung
+c.2197C>U, p.P733S, Lung
+c.2198C>U, p.P733L, Lung
+c.2222C>U, p.P741L, Lung
+c.2257C>U, p.P753S, Lung
+# p.S752_I759delSPKANKEI, Lung
+c.2254U>C, p.S752P, Lung
+c.2255C>A, p.S752Y, Lung
+c.2252C>U, p.T751I, Lung
+# p.T751_E758delTSPKANKE, Lung
+# p.T751_I759>N, Lung
+c.2213U>G, p.V738G, Lung
+c.2225U>C, p.V742A, Lung
+# p.W731*, Lung
+c.2300C>U, p.A767V, Lung
+c.2324U>A, p.C775Y, Lung
+c.2308G>A, p.D770N, Lung
+# p.D770>GY, Lung
+# p.D770_N771insG,  Lung
+# p.D770_N771insSVD, Lung
+# p.G779F, Lung
+c.2428G>A, p.G810S, Lung
+c.2429G>A, p.G810D, Lung
+c.2318A>U, p.H773L, Lung
+c.2318A>G, p.H773R, Lung
+# p.H773_V774insH, Lung
+# p.H773_V774insNPH, Lung
+c.2462U>C, p.I821T, Lung
+c.2375U>C, p.L792P, Lung
+c.2441U>C, p.L814P, Lung
+# ,p. N771_P772p.insN, Lung
+c.2326C>U, p.R776C, Lung
+c.2327G>A, p.R776H, Lung
+c.2303G>U, p.S768I, Lung
+c.2350U>C, p.S784P, Lung
+c.2351C>U, p.S784F, Lung
+c.2293G>A, p.V765M, Lung
+c.2305G>C, p.V769L, Lung
+# p.V769_D770insASV, Lung
+c.2230G>A, p.V774M, Lung
+c.2356F>A, p.V786M, Lung
+# p.V819V, Lung
+c.2575G>A, p.A859T, Lung
+c.2590G>A, p.A864T, Lung
+c.2611G>A, p.A871T, Lung
+c.2612C>G, p.A871G, Lung
+c.2603A>G, p.E868G, Lung
+c.2588G>A, p.G863D, Lung
+c.2618G>A, p.G873E, Lung
+c.2620G>A, p.G874S, Lung
+c.2608C>U, p.H870Y, Lung
+c.2609A>G, p.H870R, Lung
+c.2572C>A, p.L858M, Lung
+# p.L858L, Lung
+c.2573U>G, p.L858R, Lung
+c.2582U>G, p.L861R, Lung
+c.2582U>A, p.L861Q, Lung
+c.1793G>U, p.G598V, Lung
+c.1787C>U, p.P596L, Lung
+c.323G>A, p.R108K, Lung
+c.2369C>U, p.T790M, Lung

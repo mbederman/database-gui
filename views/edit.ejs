@@ -1,0 +1,29 @@
+<%- include("header") -%>
+
+    <form method="post" class="mb-4">
+        <div class="fs-5 container text-center ">
+            <h1 class="fs-1 fw-bold text-decoration-underline bg"><%= gene %></h1>
+            <div class="mb-3 d-flex justify-content-center">
+                <input name="position" class="form-control w-50" id="positionInput" value="<%= content.position %>" placeholder="Position">
+            </div>
+            <div class="mb-3 d-flex justify-content-center">
+                <input name="protein" class="form-control w-50" id="proteinInput" value="<%= content.protein %>" placeholder="Protein">
+            </div>
+            <div class="mb-3 d-flex justify-content-center">
+                <input name="comment" class="form-control w-50" id="commentInput" value="<%= content.comment %>" placeholder="Comment">
+            </div>
+            <button type="submit" class="btn btn-primary w-50">Save</button>
+            <a class="text-decoration-none text-white btn btn-danger w-50 mt-2" href="/gene/<%= gene %>">Cancel</a>
+        </div>
+    </form>
+
+    <div class="container text-center w-50">
+        <div id="positionError" class="alert alert-danger" role="alert"></div>
+        <div id="proteinError" class="alert alert-danger" role="alert"></div>
+        <div id="commentError" class="alert alert-danger" role="alert"></div>
+    </div>
+    
+
+    <script src="js/edit_warnings.js"></script>
+
+<%- include("footer") -%>

@@ -1,0 +1,11 @@
+#STK11
+
+c.169delG p.E57fs*7
+c.465-51T>C p.(=)
+c.465-1G>T p.?
+c.475C>T p.Q159*
+c.580G>T p.D194Y
+c.595G>T p.E199*
+c.816C>T p.Y272Y
+c.842C>T p.P281L
+c.1062C>G p.F354L

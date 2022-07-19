@@ -1,0 +1,10 @@
+#GNAQ
+
+c.1002C>T,p.D277fs*20
+c.829_830insGTAC,p.?
+c.736-34del12,p.(=)
+c.735+34T>C,p.M227_F228>SI
+c.679_681TGT>GCA,p.?
+c.606-66del41,p.R183Q
+c.548G>A,p.T175S
+c.523A>T,p.L248V

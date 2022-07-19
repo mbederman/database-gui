@@ -1,0 +1,39 @@
+#APC
+
+c.2543_2544insA, p.R876*,
+c.2626C>T,p.I880T,
+c.2639T>C,p.Q886*,
+c.2656C>T,p.E918*,
+c.2752G>T,p.Q1096*,
+c.3286C>T,p.Y1102C,
+c.3305A>G,p.E1145E,
+c.3435A>G,p.S1234fs*31,
+c.3700delA,p.E1265E,
+c.3795A>G,p.Q1291*,
+c.3871C>T,p.Q1294*,
+c.3880C>T,p.E1309fs*6,
+c.3923_3924insA,p.E1322*,
+c.3964G>T,p.E1353*,
+c.4057G>T,p.S1355P,
+c.4063T>C,p.Q1378*,
+c.4132C>T,p.P1381S,
+c.4141C>T,p.R1399fs*9,
+c.4189_4190delGA,p.Q1406*,
+c.4216C>T,p.Q1429*,
+c.4285C>T,p.S1465fs*3,
+c.4393_4394delAG,p.P1514fs*9,
+c.4540delC,p.E1521*,
+c.4561G>T,p.E1547*,
+c.4639G>T,p.E1552*,
+c.4654G>T,p.T1556fs*3,
+c.4666_4667insA,p.P1594fs*38,
+c.4773_4774insA,p.P1609L,
+c.4826C>T,(=),
+c.3916G>T, p.E1306*, Colorectum
+c.3927delAAAGA, p.E1309fs, Colorectum
+c.3925G>T, p.E1309*, Colorectum
+c.3931insA, p.I1311fs, Colorectum
+c.4364delA, p.N1455fs, Esophagus
+c.4348C>T, p.R1450*, Colorectum; Stomach
+c.3924insA, p.K1308fs, Colorectum
+c.3910delA, p.I1304fs, Colorectum

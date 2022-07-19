@@ -1,0 +1,107 @@
+# PIK3CA                                   
+
+c.1637A>C,p.Q546P, Colorectum
+c.3140A>G,p.H1047R, Colorectum
+c.1637A>,p.Q546R, Colorectum
+c.1633G>A,p.E545K, Colorectum
+c.1633G>A,p.E545K, Lung
+c.1635G>T,p.E545D, Lung
+c.1624G>A,p.E542K, Colorectum
+c.1634A>C,p.E545A, Colorectum
+c.241G>A,p.E81K, Colorectum
+c.1035T>A,p.N345K, Breast
+c.3140A>G,p.H1047R, Breast
+c.1633G>A,p.E545K, Breast
+c.1637A>G,p.Q546R, Breast
+c.3127A>G,p.M1043V, Breast
+c.3145G>C,p.G1049R, Breast
+c.1633G>A,p.E545K, Stomach
+c.1634A>G,p.E545G, Colorectum
+c.3140A>G,p.H1047R, Stomach
+c.1635G>C,p.E545D, Colorectum
+c.1624G>A,p.E542K, Breast
+c.1633G>C,p.E545Q, Colorectum
+c.3140A>G,p.H1047R, Liver
+c.3129G>A,p.M1043I, Breast
+c.1636C>A,p.Q546K, Colorectum
+c.140A>T,p.H1047L, Breast
+c.263G>A,p.R88Q, Colorectum
+c.3140A>T,p.H1047L, Lung
+c.1624G>A,p.E542K, Lung
+c.3141T>G,p.H1047Q, Colorectum
+c.238G>A,p.E80K, Breast
+c.1035T>A,p.N345K, Colorectum
+c.3140A>T,p.H1047L, Colorectum
+c.3129G>A,p.M1043I, Colorectum
+c.3132T>A,p.N1044K, Esophagus
+c.3140A>T,p.H1047L, Breast
+,p.E545K, Lung
+,p.H1047R, Breast
+,p.H1047L, Breast
+,p.E545K, Breast
+c.3140A>G,p.H1047R, Colon
+c.3140A>t,p.H1047L, Breast
+c.112C>T,p.R38C, Colon
+c.113G>A,p.R38H, Colon
+c.263G>A,p.R88Q, Colon
+c.311C>G,p.P104R, Colon
+c.317G>T,p.G106V, Colon
+c.323G>C,p.R108P, Colon
+c.del332-334,p.delK111, Colon
+c.353G>A,p.G118D, Colon
+c.365G>A,p.G122D, Colon
+c.370C>A,p.P124T, Colon
+c.1035T>A,p.N345K, Colon
+c.1048G>C,p.D350H, Brain
+c.1132T>C,p.C378R, Brain
+c.1258T>C,p.C420R, Colon
+c.1357G>C,p.E453Q, Colon
+c.1616C>G,p.P359R, Colon
+c.1624G>A,p.E542K, Colon
+c.1624G>A,p.E542K, Adenoma
+c.1625A>G,p.E542G, Colon
+c.1625A>T,p.E542V, Adenoma
+c.1633G>A,p.E545K, Colon
+c.1633G>A, E545K, Lung
+c.1634A>G, E545G, Colon
+c.1635G>T, E545D, Colon
+c.1636C>A, Q546K, Colon
+c.1637A>C, Q546P, Colon
+c.1981C>A, Q661K, Colon
+c.2102A>C, H701P, Brain
+c.2702G>T, C901F, Stomach
+c.2702G>T, C901F, Colon
+c.2725T>C, F909L, Colon
+c.3022T>C, S1008P, Colon
+c.3073A>G, T1025A, Colon
+c.3074C>A, T1025N, Colon
+c.3129G>T, M1043I, Colon
+c.3139C>T, H1047Y, Colon
+c.3140A>G, H1047R, Stomach
+c.3140A>G, H1047R, Lung
+c.3140A>T, H1047L, Colon
+c.3145G>A, G1049S, Brain
+c.35G>A,I31M,
+c.93A>G,Q60Q,
+c.180A>G,F70F,
+c.210C>T,R108H,
+c.323G>A,K111E,
+c.331A>G,R115L,
+c.344G>T,K179R,
+c.536A>G,T324I,
+c.971C>T,L334L,
+c.1002C>T,N345K,
+c.1035T>A,S405P,
+c.1213T>C,C420R,
+c.1258T>C,N457S,
+c.1370A>G,P539R,
+c.1616C>G,E542K,
+c.1624G>A,E545K,
+c.1633G>A,E547G,
+c.1640A>G,H701P,
+c.2102A>C,C901F,
+c.2702G>T,F909L,
+c.2725T>C,E1037G,
+c.3110A>G,H1047R,
+c.3140A>G,N1068fs*4,
+c.3204_3205insA,S249C,

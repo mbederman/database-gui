@@ -1,0 +1,21 @@
+#CTNNB1
+
+c.134C>T, p.S45F, Colorectum 
+c.133T>C, p.S45P, Colorectum
+c.121A>G, p.T41A, Colorectum
+c.101G>T, p.G34V, Liver
+c.98C>G,  p.S33C, Stomach
+c.101G>T, p.G34V, Stomach
+c.133T>C, p.S45P, Liver
+c.110C>T, p.S37F, Colorectum
+c.104T>G, p.I35S, Liver
+c.98C>T,  p.S33F, Ovary
+c.101G>A, p.G34E, Colorectum
+c.121A>G, p.T41A, Liver
+c.133T>G, p.S45A, Liver
+c.121A>G, p.T41A, Ovary
+c.110C>G, p.S37C, Breast
+c.98C>G,  p.S37F,
+c.110C>T, p.T41A,
+c.121A>G, p.S45F,
+c.134C>T, p.C134W,
