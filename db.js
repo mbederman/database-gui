@@ -3,9 +3,8 @@ module.exports.loadDB = async (directory) => {
 
     var contents = {};
     await fs.readdir(directory, (error, files) => {
-        if(error) {
+        if(error)
             console.log(error);
-        }
         else {
             const regex = new RegExp("^c\\.(\\d+)([AGTCU]+)>([ATGCU])+,\\s*p(.)");
 
@@ -18,22 +17,20 @@ module.exports.loadDB = async (directory) => {
                     else {
                         var lines = data.split("\n");
                         lines = lines.filter(line => regex.test(line));
-                    
-                        var count = 0;
-                        lines = lines.map(line => {
+                
+                        lines = lines.map((line, index) => {
                             var items = line.split(",");
                             var comment = "";
                             
                             try {comment = items[2].trim();}
                             catch {}
 
-                            count++;
-
                             return {
                                 position: items[0].trim(),
                                 protein: items[1].trim(),
                                 comment: comment,
-                                id: count - 1
+                                id: index,
+                                deleted: false
                             };
                         });
 
@@ -80,6 +77,22 @@ module.exports.commitDB = async (directory, user) => {
     });
 
     await exec("git commit -m '" + user + " made changes to DB'", (error, stdout, stderr) => {
+        if(error) {
+            console.log("Error: " + error);
+        }
+
+        if(stderr) {
+            console.log("Stderr: " + stderr);
+        }
+
+        console.log(stdout);
+    });
+};
+
+module.exports.pushDB = async () => {
+    const { exec } = require("child_process");
+
+    await exec("git push origin", (error, stdout, stderr) => {
         if(error) {
             console.log("Error: " + error);
         }

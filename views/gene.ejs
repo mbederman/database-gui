@@ -67,7 +67,7 @@
 
                 <div class="fs-5">
                     <div class="gx-auto mx-5">
-                        <% content.forEach(mutation => { %>
+                        <% content.filter(mutation => !mutation.deleted).forEach(mutation => { %>
                             <div class="border bg-light pb-3">
                                 <p>
                                     <span class="fw-bold">Mutation: </span> <%= mutation.position %>
