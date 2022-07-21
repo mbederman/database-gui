@@ -1,3 +1,4 @@
+// loads files from directory into memory
 module.exports.loadDB = async (directory) => {
     const fs = require("fs");
 
@@ -6,6 +7,7 @@ module.exports.loadDB = async (directory) => {
         if(error)
             console.log(error);
         else {
+            // filters for SNPs only
             const regex = new RegExp("^c\\.(\\d+)([AGTCU]+)>([ATGCU])+,\\s*p(.)");
 
             files = files.map(file => file.split(".")[0]);
@@ -44,6 +46,7 @@ module.exports.loadDB = async (directory) => {
     return contents;
 };
 
+// saves changes made to a specific gene to its file in the directory
 module.exports.saveToDB = async (directory, gene, contents) => {
     const fs = require("fs");
 
@@ -61,9 +64,12 @@ module.exports.saveToDB = async (directory, gene, contents) => {
     });
 };
 
+// commits changes made to files to github
 module.exports.commitDB = async (directory, user) => {
     const { exec } = require("child_process");
 
+    // need sanitization to avoid injection
+    // only commits files in directory
     await exec("git add " + directory + "*.txt", (error, stdout, stderr) => {
         if (error) {
             console.log("Error: " + error);
@@ -76,6 +82,7 @@ module.exports.commitDB = async (directory, user) => {
         console.log(stdout);
     });
 
+    // need sanitization to avoid injection
     await exec("git commit -m '" + user + " made changes to DB'", (error, stdout, stderr) => {
         if(error) {
             console.log("Error: " + error);
@@ -89,6 +96,7 @@ module.exports.commitDB = async (directory, user) => {
     });
 };
 
+// pushs commits to remote github repository (not called on server yet)
 module.exports.pushDB = async () => {
     const { exec } = require("child_process");
 
