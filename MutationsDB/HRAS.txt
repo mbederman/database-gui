@@ -1,8 +1,0 @@
-#HRAS
-
-#c.182A>G,
-#c.175G>A,
-#c.81T>C,
-#c.35G>T,
-c.37G>C, p.G13R, Lung
-c.38G>T, p.G13V, Lung
